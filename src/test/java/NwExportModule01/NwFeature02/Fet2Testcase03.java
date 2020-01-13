@@ -68,7 +68,7 @@ public class Fet2Testcase03 extends  AllActions {
         {
         try
         {
-            actions.EnterApplicationURL("http://web.meehappy.com:9090/login");
+            actions.EnterApplicationURL("MyTestDataa,Sheet1,[1],[2]");
 
             String methodName=Thread.currentThread().getStackTrace()[1].getMethodName();
         actions.CaptureScreenShotAtEachStep(path,methodName,screenshotOption);
